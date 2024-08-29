@@ -3,6 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
 
 .container {
@@ -12,11 +13,11 @@ body {
 }
 
 header {
-    background: #333;
+    background: #343a40;
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #77a5b8 3px solid;
+    border-bottom: #e0a800 3px solid;
 }
 
 header a {
@@ -33,25 +34,26 @@ header ul {
 
 header ul li {
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: #343a40;
 }
 
 section {
     padding: 20px 0;
 }
 
-#about, #skills, #projects, #contact {
+#about, #skills, #experience, #contact {
     padding: 50px 0;
-    background: #f4f4f4;
+    background: #fff;
     margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background: #333;
+    background: #343a40;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -73,12 +75,21 @@ form button {
     display: block;
     width: 100%;
     padding: 10px;
-    background: #333;
+    background: #343a40;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background: #555;
+    background: #495057;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
