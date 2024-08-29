@@ -58,33 +58,49 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
-form label {
-    display: block;
-    margin: 5px 0;
+.contact-info {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 20px;
 }
 
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+.contact-info h2 {
+    margin-top: 0;
+    color: #333;
 }
 
-form button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background: #343a40;
-    color: #fff;
+.contact-info p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.contact-info a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+#copy-button {
+    margin-top: 20px;
+    padding: 10px 20px;
     border: none;
+    border-radius: 5px;
+    background-color: #1a73e8;
+    color: white;
     cursor: pointer;
+    font-size: 16px;
 }
 
-form button:hover {
-    background: #495057;
+#copy-button:hover {
+    background-color: #1558b0;
 }
-
 .job {
     margin-bottom: 20px;
 }
